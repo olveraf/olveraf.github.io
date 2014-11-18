@@ -1,0 +1,84 @@
+    header {
+      text-align: center;
+      background: url("images/sucia-island-2.jpg");
+      background-size: cover;
+      color: white;
+      font-family: helvetica;
+    }
+    body {
+    	background: #fefef2;
+    	font-family: helvetica;
+    	margin: 0px;
+    }
+    img {
+    	border: 7px solid white;
+    	border-radius: 10px;
+    	margin-top: 40px;
+    }
+    a {
+    	color: white;
+    }
+    h1 {
+    	font-size: 50px;
+    }
+    h2 {
+    	color: #3c90be;
+    	font-size: 35px;
+    	margin: 5px;
+    }
+    p {
+    	color: #64543e;
+    	font-size: 18px;
+    }     ul {
+     padding: 10px;
+     background: rgba(0,0,0,0.5);
+    }
+    li {
+    	display: inline;
+    	padding-right: 10px;
+    }
+    article ul {
+    	background: none;
+    	color: #64543e;
+    	font-size: 18px;
+    	padding: 0px
+
+    }
+    article li {
+    	display: block;
+    	padding: 3px 0px;
+    }
+    article {
+    	margin: 0 auto;
+    	max-width: 500px;
+    	padding: 20px;
+    }
+    .button {
+      	background: none no-repeat scroll 0% 0% #95c7a4;
+    	padding: 10px 15px;
+    	border-bottom: 5px solid #6a8d74;
+        font-size: 18px;
+    	text-decoration: none;
+    	margin: 0px 10px;
+    	text-align: center;
+    	box-shadow: 0px 1px 5px #000;
+    	display: inline-block;
+    	font-family: "helvetica";
+    	transition: background-color 0.2s ease 0s;
+    }
+    .button:hover {
+    	background-color: #6a8d74;
+    }
+    @media (max-width: 500px) {
+    	h1 {
+    		font-size: 36px;
+    	}
+    	li {
+    		display: block;
+    		padding: 5px;
+    	}
+    	h2 {
+    		font-size: 25px
+    	}
+    	}
+    }    
